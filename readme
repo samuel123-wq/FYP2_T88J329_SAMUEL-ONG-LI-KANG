@@ -11,33 +11,36 @@ ensure raspberry pi run ubuntu os
 
 **Web Folder**
 - Python Library required:
-    flask
-    flask-cors
-    pymongo
-    paho-mqtt
-    bcrypt
-    schedule
-    firebase-admin (didn't use in final product but still required to install this module to ensure the system doesn't crash out)
+    python: 3.10 or 3.11
+    Flask: 3.0.2
+    flask-cors: 4.0.0
+    pymongo: 4.6.2
+    paho-mqtt: 2.0.0 (Required: your code uses the new Version 2 API)
+    bcrypt: 4.1.2
+    schedule: 1.2.1
+    firebase-admin: 6.5.0 (didn't use in final product but still required to install this module to ensure the system doesn't crash out)
 
 **fabric-2.5.4**
 - Python Library required:
-    paho-mqtt
-    pymongo
-    numpy & pandas
-    joblib
-    requests
+    Hyperledger Fabric: 2.5.4 (LTS)
+    Go (for chaincode): 1.20 or 1.21
+    paho-mqtt: 2.0.0
+    pymongo: 4.6.2
+    requests: 2.31.0
 
 **ESP32 Thonny**
-- Python Library required:
-    umqtt.simple
+    MicroPython Firmware: v1.22.0 or newer
+    micropython-umqtt.simple: 1.3.4 (Install via Thonny Package Manager)
 
 **Raspberry**
-    scikit learn
-    pandas & numpy
-    psutil
-    joblib
-    paho-mqtt
-    pymongo
+    python: 3.10 or 3.11
+    scikit-learn: 1.3.2
+    pandas: 2.2.1
+    numpy: 1.26.4
+    joblib: 1.3.2
+    psutil: 5.9.8
+    paho-mqtt: 2.0.0
+    pymongo: 4.6.2
 
 
 How to run:
