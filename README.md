@@ -116,7 +116,8 @@ Note:
 2. Change etc/mongod.conf ip in server to hostname -i address and restart it.
 3. change rapy.py MONGO_HOST variable ip to the ip address that match etc/mongo.conf address.
 4. Change flask ip address to hostname -i address
-
+5. Jupyter - Training models run on Gigabyte G5 rtx 4050 i7 16 gb
+   
 Sensor connection to ESP32-S3:
     pH Sensor: Pin 4
     TDS (Conductivity): Pin 7
